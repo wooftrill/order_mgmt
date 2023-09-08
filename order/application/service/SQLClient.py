@@ -117,7 +117,7 @@ class SQLClient:
                 session = curr_session()
                 query = SQLUtils.update(table_name, uid=sql_model["uid"], order_id=sql_model["order_id"],
                                         checkout_ldts=sql_model["checkout_ldts"], session_id=sql_model["session_id"],
-                                        net_total=sql_model["net_total"] ,ldts=sql_model["ldts"])
+                                        grand_total=sql_model["grand_total"] ,ldts=sql_model["ldts"])
                 print(query)
                 response = session.execute(text(query))
                 if response.__dict__['rowcount'] > 0:

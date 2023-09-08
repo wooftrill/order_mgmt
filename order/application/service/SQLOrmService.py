@@ -23,6 +23,8 @@ class SQLOrmService(SQLClient):
         try:
             if self.show_checkout(self.__checkout_table,checkout_model):
                 logging.info("Checkout Item found....")
+                print("jjjj")
+                print(self.show_checkout(self.__checkout_table,checkout_model))
                 check_out_obj = HelperUtils.create_order_dict(self.show_checkout(self.__checkout_table,checkout_model))
                 if check_out_obj:
                     logging.info("Validity test passed !!!")

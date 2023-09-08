@@ -55,6 +55,7 @@ def forward_to_order(response):
         return HTTPStatus.BAD_REQUEST, 401
     try:
         gw_model = asdict(OrderGwModel(response["user_id"],response["session_id"]))
+        print(gw_model)
         response= sql_orm_service.generate_order(gw_model)
         logging.info("new",response)
         if response is False :

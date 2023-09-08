@@ -142,3 +142,152 @@ TypeError: The view function for 'forward_to_Order' did not return a valid respo
 2023-08-12 01:46:24,465 - INFO - new
 2023-08-12 01:46:24,465 - INFO - Validation time: 0.000 seconds
 2023-08-12 01:46:24,465 - INFO - Execution time: 0.111 seconds
+2023-09-08 06:14:56,720 - INFO - Serving on http://0.0.0.0:5007
+2023-09-08 06:28:32,453 - INFO - Validation time: 2.105 seconds
+2023-09-08 06:28:32,456 - INFO - POST /forward_to_Order
+2023-09-08 06:28:32,458 - INFO - order generation function triggered..
+2023-09-08 06:28:32,459 - INFO - checking if table exist!!...
+2023-09-08 06:28:32,536 - INFO - session closed
+2023-09-08 06:28:32,537 - INFO - Checkout Item found....
+2023-09-08 06:28:32,537 - INFO - checking if table exist!!...
+2023-09-08 06:28:32,553 - INFO - session closed
+2023-09-08 06:28:32,554 - INFO - Validity test passed !!!
+2023-09-08 06:28:32,554 - INFO - checking if table exist!!...
+2023-09-08 06:28:32,562 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk'and payment_status=0;
+2023-09-08 06:28:32,873 - INFO - session closed
+2023-09-08 06:28:32,873 - INFO - updating the table
+2023-09-08 06:28:32,873 - INFO - checking if table exist!!...
+2023-09-08 06:28:33,036 - INFO - row inserted!..
+2023-09-08 06:28:33,067 - INFO - session closed
+2023-09-08 06:28:33,067 - INFO - new
+2023-09-08 06:28:33,070 - INFO - Validation time: 2.112 seconds
+2023-09-08 06:28:33,070 - INFO - Execution time: 2.726 seconds
+2023-09-08 06:31:11,299 - INFO - Serving on http://0.0.0.0:5007
+2023-09-08 06:31:23,912 - INFO - Validation time: 2.067 seconds
+2023-09-08 06:31:23,912 - INFO - POST /forward_to_Order
+2023-09-08 06:31:23,913 - INFO - order generation function triggered..
+2023-09-08 06:31:23,913 - INFO - checking if table exist!!...
+2023-09-08 06:31:23,968 - INFO - session closed
+2023-09-08 06:31:23,968 - INFO - Checkout Item found....
+2023-09-08 06:31:23,968 - INFO - checking if table exist!!...
+2023-09-08 06:31:23,980 - INFO - session closed
+2023-09-08 06:31:23,980 - INFO - Validity test passed !!!
+2023-09-08 06:31:23,980 - INFO - checking if table exist!!...
+2023-09-08 06:31:23,984 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk'and payment_status=0;
+2023-09-08 06:31:23,988 - INFO - session closed
+2023-09-08 06:31:23,988 - INFO - updating the table
+2023-09-08 06:31:23,988 - INFO - checking if table exist!!...
+2023-09-08 06:31:24,015 - INFO - row inserted!..
+2023-09-08 06:31:24,026 - INFO - session closed
+2023-09-08 06:31:24,026 - INFO - new
+2023-09-08 06:31:24,026 - INFO - Validation time: 2.067 seconds
+2023-09-08 06:31:24,026 - INFO - Execution time: 2.181 seconds
+2023-09-08 06:33:20,464 - INFO - Serving on http://0.0.0.0:5007
+2023-09-08 06:33:32,156 - INFO - Validation time: 2.059 seconds
+2023-09-08 06:33:32,156 - INFO - POST /forward_to_Order
+2023-09-08 06:33:32,156 - INFO - order generation function triggered..
+2023-09-08 06:33:32,156 - INFO - checking if table exist!!...
+2023-09-08 06:33:32,206 - INFO - session closed
+2023-09-08 06:33:32,206 - INFO - Checkout Item found....
+2023-09-08 06:33:32,206 - INFO - checking if table exist!!...
+2023-09-08 06:33:32,216 - INFO - session closed
+2023-09-08 06:33:32,217 - INFO - checking if table exist!!...
+2023-09-08 06:33:32,224 - INFO - session closed
+2023-09-08 06:33:32,225 - INFO - Validity test passed !!!
+2023-09-08 06:33:32,225 - INFO - checking if table exist!!...
+2023-09-08 06:33:32,228 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk'and payment_status=0;
+2023-09-08 06:33:32,254 - INFO - session closed
+2023-09-08 06:33:32,254 - INFO - updating the table
+2023-09-08 06:33:32,254 - INFO - checking if table exist!!...
+2023-09-08 06:33:32,284 - INFO - row inserted!..
+2023-09-08 06:33:32,293 - INFO - session closed
+2023-09-08 06:33:32,293 - INFO - new
+2023-09-08 06:33:32,294 - INFO - Validation time: 2.059 seconds
+2023-09-08 06:33:32,294 - INFO - Execution time: 2.197 seconds
+2023-09-08 06:41:00,303 - INFO - Serving on http://0.0.0.0:5007
+2023-09-08 06:41:57,803 - INFO - Validation time: 2.060 seconds
+2023-09-08 06:41:57,803 - INFO - POST /forward_to_Order
+2023-09-08 06:41:57,803 - INFO - order generation function triggered..
+2023-09-08 06:41:57,804 - INFO - checking if table exist!!...
+2023-09-08 06:41:57,852 - INFO - session closed
+2023-09-08 06:41:57,852 - INFO - Checkout Item found....
+2023-09-08 06:41:57,852 - INFO - checking if table exist!!...
+2023-09-08 06:41:57,862 - INFO - session closed
+2023-09-08 06:41:57,862 - INFO - checking if table exist!!...
+2023-09-08 06:41:57,870 - INFO - session closed
+2023-09-08 06:41:57,870 - INFO - Validity test passed !!!
+2023-09-08 06:41:57,870 - INFO - checking if table exist!!...
+2023-09-08 06:41:57,874 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk'and payment_status=0;
+2023-09-08 06:41:57,899 - INFO - session closed
+2023-09-08 06:41:57,899 - INFO - updating the table
+2023-09-08 06:41:57,899 - INFO - checking if table exist!!...
+2023-09-08 06:41:57,903 - ERROR - issue with query:'net_total'
+2023-09-08 06:41:57,903 - INFO - session closed
+2023-09-08 06:41:57,909 - INFO - Validation time: 2.060 seconds
+2023-09-08 06:41:57,909 - INFO - Execution time: 2.166 seconds
+2023-09-08 07:08:26,628 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 760, in _write_bytes
+    self._sock.sendall(data)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 995, in _finalize_fairy
+    asyncio_safe=can_manipulate_connection,
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 1440, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\engine\default.py", line 657, in do_rollback
+    dbapi_connection.rollback()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 481, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 818, in _execute_command
+    self._write_bytes(packet)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 764, in _write_bytes
+    CR.CR_SERVER_GONE_ERROR, "MySQL server has gone away (%r)" % (e,)
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))")
+2023-09-08 07:08:26,642 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 760, in _write_bytes
+    self._sock.sendall(data)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 995, in _finalize_fairy
+    asyncio_safe=can_manipulate_connection,
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 1440, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\engine\default.py", line 657, in do_rollback
+    dbapi_connection.rollback()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 481, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 818, in _execute_command
+    self._write_bytes(packet)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 764, in _write_bytes
+    CR.CR_SERVER_GONE_ERROR, "MySQL server has gone away (%r)" % (e,)
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))")
+2023-09-08 07:08:26,642 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 760, in _write_bytes
+    self._sock.sendall(data)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 995, in _finalize_fairy
+    asyncio_safe=can_manipulate_connection,
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\pool\base.py", line 1440, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\sqlalchemy\engine\default.py", line 657, in do_rollback
+    dbapi_connection.rollback()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 481, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 818, in _execute_command
+    self._write_bytes(packet)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\pymysql\connections.py", line 764, in _write_bytes
+    CR.CR_SERVER_GONE_ERROR, "MySQL server has gone away (%r)" % (e,)
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))")
