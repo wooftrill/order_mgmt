@@ -1,0 +1,382 @@
+2023-09-08 14:29:36,319 - INFO - Serving on http://0.0.0.0:5007
+2023-09-08 14:35:04,589 - INFO - Validation time: 0.010 seconds
+2023-09-08 14:35:04,589 - INFO - POST /forward_to_Order
+2023-09-08 14:35:04,589 - INFO - order generation function triggered..
+2023-09-08 14:35:04,589 - INFO - checking if table exist!!...
+2023-09-08 14:35:04,603 - INFO - session closed
+2023-09-08 14:35:04,603 - INFO - Checkout Item found....
+2023-09-08 14:35:04,603 - INFO - checking if table exist!!...
+2023-09-08 14:35:04,608 - INFO - session closed
+2023-09-08 14:35:04,609 - INFO - checking if table exist!!...
+2023-09-08 14:35:04,614 - INFO - session closed
+2023-09-08 14:35:04,614 - INFO - Validity test passed !!!
+2023-09-08 14:35:04,614 - INFO - checking if table exist!!...
+2023-09-08 14:35:04,617 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk'and payment_status=0;
+2023-09-08 14:35:04,621 - INFO - session closed
+2023-09-08 14:35:04,622 - INFO - inserting
+2023-09-08 14:35:04,622 - INFO - checking if table exist!!...
+2023-09-08 14:35:04,625 - INFO - row inserted!..
+2023-09-08 14:35:04,631 - INFO - session closed
+2023-09-08 14:35:04,631 - INFO - new
+2023-09-08 14:35:04,632 - INFO - Validation time: 0.011 seconds
+2023-09-08 14:35:04,632 - INFO - Execution time: 0.053 seconds
+2023-09-08 14:35:19,210 - INFO - POST /forward_to_Order
+2023-09-08 14:35:19,210 - INFO - order generation function triggered..
+2023-09-08 14:35:19,210 - INFO - checking if table exist!!...
+2023-09-08 14:35:19,215 - INFO - session closed
+2023-09-08 14:35:19,216 - INFO - Checkout Item found....
+2023-09-08 14:35:19,216 - INFO - checking if table exist!!...
+2023-09-08 14:35:19,220 - INFO - session closed
+2023-09-08 14:35:19,220 - INFO - checking if table exist!!...
+2023-09-08 14:35:19,225 - INFO - session closed
+2023-09-08 14:35:19,228 - INFO - Validity test passed !!!
+2023-09-08 14:35:19,229 - INFO - checking if table exist!!...
+2023-09-08 14:35:19,233 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk'and payment_status=0;
+2023-09-08 14:35:19,237 - INFO - session closed
+2023-09-08 14:35:19,237 - INFO - updating the table
+2023-09-08 14:35:19,237 - INFO - checking if table exist!!...
+2023-09-08 14:35:19,240 - ERROR - Error: connection issue (pymysql.err.OperationalError) (1054, "Unknown column 'grand_total' in 'field list'")
+[SQL: Update external.tbl_order SET order_id='00000000-0000-0000-2f05-21f5ebc3dfed', checkout_ldts=1694075817395120418,ldts=1694183719228134226, grand_total=571.42 where uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk' and payment_status=0;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-09-08 14:35:19,241 - INFO - session closed
+2023-09-08 14:35:19,254 - INFO - Validation time: 0.000 seconds
+2023-09-08 14:35:19,254 - INFO - Execution time: 0.044 seconds
+2023-09-08 14:35:28,126 - INFO - POST /forward_to_Order
+2023-09-08 14:35:28,127 - INFO - order generation function triggered..
+2023-09-08 14:35:28,127 - INFO - checking if table exist!!...
+2023-09-08 14:35:28,132 - INFO - session closed
+2023-09-08 14:35:28,132 - INFO - Checkout Item found....
+2023-09-08 14:35:28,132 - INFO - checking if table exist!!...
+2023-09-08 14:35:28,136 - INFO - session closed
+2023-09-08 14:35:28,137 - INFO - checking if table exist!!...
+2023-09-08 14:35:28,140 - INFO - session closed
+2023-09-08 14:35:28,140 - INFO - Validity test passed !!!
+2023-09-08 14:35:28,140 - INFO - checking if table exist!!...
+2023-09-08 14:35:28,142 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk'and payment_status=0;
+2023-09-08 14:35:28,143 - INFO - session closed
+2023-09-08 14:35:28,144 - INFO - updating the table
+2023-09-08 14:35:28,144 - INFO - checking if table exist!!...
+2023-09-08 14:35:28,146 - ERROR - Error: connection issue (pymysql.err.OperationalError) (1054, "Unknown column 'grand_total' in 'field list'")
+[SQL: Update external.tbl_order SET order_id='00000000-0000-0000-2f05-21f5ebc3dfed', checkout_ldts=1694075817395120418,ldts=1694183728140687973, grand_total=571.42 where uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='ghsgdhsh7873673hwgikk' and payment_status=0;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-09-08 14:35:28,147 - INFO - session closed
+2023-09-08 14:35:28,148 - INFO - Validation time: 0.000 seconds
+2023-09-08 14:35:28,148 - INFO - Execution time: 0.022 seconds
+2023-09-10 02:44:53,521 - INFO - Serving on http://0.0.0.0:5007
+2023-09-10 16:40:52,500 - INFO - Serving on http://0.0.0.0:5007
+2023-09-11 04:39:38,773 - INFO - Serving on http://0.0.0.0:5007
+2023-09-11 17:34:56,775 - INFO - Serving on http://0.0.0.0:5007
+2023-09-11 18:07:45,198 - INFO - Validation time: 0.007 seconds
+2023-09-11 18:07:45,198 - INFO - POST /forward_to_Order
+2023-09-11 18:07:45,198 - INFO - order generation function triggered..
+2023-09-11 18:07:45,198 - INFO - checking if table exist!!...
+2023-09-11 18:07:45,207 - INFO - session closed
+2023-09-11 18:07:45,208 - INFO - Checkout Item found....
+2023-09-11 18:07:45,208 - INFO - checking if table exist!!...
+2023-09-11 18:07:45,212 - INFO - session closed
+2023-09-11 18:07:45,212 - INFO - checking if table exist!!...
+2023-09-11 18:07:45,215 - INFO - session closed
+2023-09-11 18:07:45,215 - INFO - Validity test passed !!!
+2023-09-11 18:07:45,215 - INFO - checking if table exist!!...
+2023-09-11 18:07:45,217 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='rtrtujfgfgdgfdjfhfgfdf676fghfgh'and payment_status=0;
+2023-09-11 18:07:45,220 - INFO - session closed
+2023-09-11 18:07:45,220 - INFO - inserting
+2023-09-11 18:07:45,220 - INFO - checking if table exist!!...
+2023-09-11 18:07:45,222 - INFO - row inserted!..
+2023-09-11 18:07:45,226 - INFO - session closed
+2023-09-11 18:07:45,226 - INFO - new
+2023-09-11 18:07:45,226 - INFO - Validation time: 0.008 seconds
+2023-09-11 18:07:45,226 - INFO - Execution time: 0.036 seconds
+2023-09-12 16:42:39,472 - INFO - Serving on http://0.0.0.0:5007
+2023-09-12 17:03:48,334 - INFO - Validation time: 0.007 seconds
+2023-09-12 17:03:48,334 - INFO - POST /forward_to_Order
+2023-09-12 17:03:48,334 - INFO - order generation function triggered..
+2023-09-12 17:03:48,334 - INFO - checking if table exist!!...
+2023-09-12 17:03:48,344 - INFO - session closed
+2023-09-12 17:03:48,344 - INFO - Checkout Item found....
+2023-09-12 17:03:48,344 - INFO - checking if table exist!!...
+2023-09-12 17:03:48,348 - INFO - session closed
+2023-09-12 17:03:48,348 - INFO - checking if table exist!!...
+2023-09-12 17:03:48,352 - INFO - session closed
+2023-09-12 17:03:48,352 - INFO - Validity test passed !!!
+2023-09-12 17:03:48,352 - INFO - checking if table exist!!...
+2023-09-12 17:03:48,354 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='rjjjgfgdgfdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-12 17:03:48,357 - INFO - session closed
+2023-09-12 17:03:48,358 - INFO - inserting
+2023-09-12 17:03:48,358 - INFO - checking if table exist!!...
+2023-09-12 17:03:48,360 - INFO - row inserted!..
+2023-09-12 17:03:48,364 - INFO - session closed
+2023-09-12 17:03:48,364 - INFO - new
+2023-09-12 17:03:48,364 - INFO - Validation time: 0.007 seconds
+2023-09-12 17:03:48,364 - INFO - Execution time: 0.038 seconds
+2023-09-12 17:39:46,504 - INFO - Validation time: 0.006 seconds
+2023-09-12 17:39:46,504 - INFO - POST /forward_to_Order
+2023-09-12 17:39:46,504 - INFO - order generation function triggered..
+2023-09-12 17:39:46,505 - INFO - checking if table exist!!...
+2023-09-12 17:39:46,508 - INFO - session closed
+2023-09-12 17:39:46,508 - INFO - Checkout Item found....
+2023-09-12 17:39:46,508 - INFO - checking if table exist!!...
+2023-09-12 17:39:46,511 - INFO - session closed
+2023-09-12 17:39:46,511 - INFO - checking if table exist!!...
+2023-09-12 17:39:46,514 - INFO - session closed
+2023-09-12 17:39:46,514 - INFO - Validity test passed !!!
+2023-09-12 17:39:46,514 - INFO - checking if table exist!!...
+2023-09-12 17:39:46,516 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='rjjjgfgdgfdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-12 17:39:46,518 - INFO - session closed
+2023-09-12 17:39:46,518 - INFO - inserting
+2023-09-12 17:39:46,518 - INFO - checking if table exist!!...
+2023-09-12 17:39:46,522 - INFO - row inserted!..
+2023-09-12 17:39:46,525 - INFO - session closed
+2023-09-12 17:39:46,525 - INFO - new
+2023-09-12 17:39:46,525 - INFO - Validation time: 0.006 seconds
+2023-09-12 17:39:46,525 - INFO - Execution time: 0.027 seconds
+2023-09-12 17:44:47,054 - INFO - Validation time: 0.006 seconds
+2023-09-12 17:44:47,054 - INFO - POST /forward_to_Order
+2023-09-12 17:44:47,055 - INFO - order generation function triggered..
+2023-09-12 17:44:47,055 - INFO - checking if table exist!!...
+2023-09-12 17:44:47,058 - INFO - session closed
+2023-09-12 17:44:47,058 - INFO - Checkout Item found....
+2023-09-12 17:44:47,058 - INFO - checking if table exist!!...
+2023-09-12 17:44:47,062 - INFO - session closed
+2023-09-12 17:44:47,062 - INFO - checking if table exist!!...
+2023-09-12 17:44:47,065 - INFO - session closed
+2023-09-12 17:44:47,065 - INFO - Validity test passed !!!
+2023-09-12 17:44:47,065 - INFO - checking if table exist!!...
+2023-09-12 17:44:47,067 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='rjjjgfgdgfdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-12 17:44:47,068 - INFO - session closed
+2023-09-12 17:44:47,068 - INFO - inserting
+2023-09-12 17:44:47,068 - INFO - checking if table exist!!...
+2023-09-12 17:44:47,070 - INFO - row inserted!..
+2023-09-12 17:44:47,074 - INFO - session closed
+2023-09-12 17:44:47,074 - INFO - new
+2023-09-12 17:44:47,074 - INFO - Validation time: 0.006 seconds
+2023-09-12 17:44:47,074 - INFO - Execution time: 0.026 seconds
+2023-09-13 01:25:56,686 - INFO - Serving on http://0.0.0.0:5007
+2023-09-13 01:42:07,075 - INFO - Validation time: 0.007 seconds
+2023-09-13 01:42:07,075 - INFO - POST /forward_to_Order
+2023-09-13 01:42:07,075 - INFO - order generation function triggered..
+2023-09-13 01:42:07,075 - INFO - checking if table exist!!...
+2023-09-13 01:42:07,085 - INFO - session closed
+2023-09-13 01:42:07,085 - INFO - Checkout Item found....
+2023-09-13 01:42:07,085 - INFO - checking if table exist!!...
+2023-09-13 01:42:07,127 - INFO - session closed
+2023-09-13 01:42:07,127 - INFO - checking if table exist!!...
+2023-09-13 01:42:07,131 - INFO - session closed
+2023-09-13 01:42:07,131 - INFO - Validity test passed !!!
+2023-09-13 01:42:07,131 - INFO - checking if table exist!!...
+2023-09-13 01:42:07,134 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='fdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-13 01:42:07,138 - INFO - session closed
+2023-09-13 01:42:07,138 - INFO - inserting
+2023-09-13 01:42:07,138 - INFO - checking if table exist!!...
+2023-09-13 01:42:07,140 - INFO - row inserted!..
+2023-09-13 01:42:07,144 - INFO - session closed
+2023-09-13 01:42:07,144 - INFO - new
+2023-09-13 01:42:07,144 - INFO - Validation time: 0.007 seconds
+2023-09-13 01:42:07,144 - INFO - Execution time: 0.076 seconds
+2023-09-13 01:52:57,188 - INFO - Validation time: 0.006 seconds
+2023-09-13 01:52:57,188 - INFO - POST /forward_to_Order
+2023-09-13 01:52:57,188 - INFO - order generation function triggered..
+2023-09-13 01:52:57,188 - INFO - checking if table exist!!...
+2023-09-13 01:52:57,192 - INFO - session closed
+2023-09-13 01:52:57,192 - INFO - Checkout Item found....
+2023-09-13 01:52:57,192 - INFO - checking if table exist!!...
+2023-09-13 01:52:57,195 - INFO - session closed
+2023-09-13 01:52:57,195 - INFO - checking if table exist!!...
+2023-09-13 01:52:57,198 - INFO - session closed
+2023-09-13 01:52:57,198 - INFO - Validity test passed !!!
+2023-09-13 01:52:57,198 - INFO - checking if table exist!!...
+2023-09-13 01:52:57,200 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='fdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-13 01:52:57,203 - INFO - session closed
+2023-09-13 01:52:57,203 - INFO - inserting
+2023-09-13 01:52:57,203 - INFO - checking if table exist!!...
+2023-09-13 01:52:57,205 - INFO - row inserted!..
+2023-09-13 01:52:57,209 - INFO - session closed
+2023-09-13 01:52:57,209 - INFO - new
+2023-09-13 01:52:57,209 - INFO - Validation time: 0.006 seconds
+2023-09-13 01:52:57,209 - INFO - Execution time: 0.027 seconds
+2023-09-13 01:56:40,398 - INFO - Validation time: 0.006 seconds
+2023-09-13 01:56:40,398 - INFO - POST /forward_to_Order
+2023-09-13 01:56:40,398 - INFO - order generation function triggered..
+2023-09-13 01:56:40,398 - INFO - checking if table exist!!...
+2023-09-13 01:56:40,402 - INFO - session closed
+2023-09-13 01:56:40,402 - INFO - Checkout Item found....
+2023-09-13 01:56:40,402 - INFO - checking if table exist!!...
+2023-09-13 01:56:40,405 - INFO - session closed
+2023-09-13 01:56:40,406 - INFO - checking if table exist!!...
+2023-09-13 01:56:40,409 - INFO - session closed
+2023-09-13 01:56:40,409 - INFO - Validity test passed !!!
+2023-09-13 01:56:40,409 - INFO - checking if table exist!!...
+2023-09-13 01:56:40,411 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='fdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-13 01:56:40,412 - INFO - session closed
+2023-09-13 01:56:40,412 - INFO - updating the table
+2023-09-13 01:56:40,412 - INFO - checking if table exist!!...
+2023-09-13 01:56:40,414 - INFO - row inserted!..
+2023-09-13 01:56:40,418 - INFO - session closed
+2023-09-13 01:56:40,418 - INFO - new
+2023-09-13 01:56:40,418 - INFO - Validation time: 0.006 seconds
+2023-09-13 01:56:40,418 - INFO - Execution time: 0.027 seconds
+2023-09-13 01:58:47,962 - INFO - Validation time: 0.006 seconds
+2023-09-13 01:58:47,962 - INFO - POST /forward_to_Order
+2023-09-13 01:58:47,962 - INFO - order generation function triggered..
+2023-09-13 01:58:47,962 - INFO - checking if table exist!!...
+2023-09-13 01:58:47,965 - INFO - session closed
+2023-09-13 01:58:47,966 - INFO - Checkout Item found....
+2023-09-13 01:58:47,966 - INFO - checking if table exist!!...
+2023-09-13 01:58:47,968 - INFO - session closed
+2023-09-13 01:58:47,969 - INFO - checking if table exist!!...
+2023-09-13 01:58:47,974 - INFO - session closed
+2023-09-13 01:58:47,974 - INFO - Validity test passed !!!
+2023-09-13 01:58:47,974 - INFO - checking if table exist!!...
+2023-09-13 01:58:47,976 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='fdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-13 01:58:47,978 - INFO - session closed
+2023-09-13 01:58:47,978 - INFO - updating the table
+2023-09-13 01:58:47,978 - INFO - checking if table exist!!...
+2023-09-13 01:58:47,981 - INFO - row inserted!..
+2023-09-13 01:58:47,986 - INFO - session closed
+2023-09-13 01:58:47,986 - INFO - new
+2023-09-13 01:58:47,986 - INFO - Validation time: 0.006 seconds
+2023-09-13 01:58:47,986 - INFO - Execution time: 0.031 seconds
+2023-09-13 02:15:21,119 - INFO - Validation time: 0.006 seconds
+2023-09-13 02:15:21,120 - INFO - POST /forward_to_Order
+2023-09-13 02:15:21,120 - INFO - order generation function triggered..
+2023-09-13 02:15:21,120 - INFO - checking if table exist!!...
+2023-09-13 02:15:21,123 - INFO - session closed
+2023-09-13 02:15:21,124 - INFO - Checkout Item found....
+2023-09-13 02:15:21,124 - INFO - checking if table exist!!...
+2023-09-13 02:15:21,126 - INFO - session closed
+2023-09-13 02:15:21,127 - INFO - checking if table exist!!...
+2023-09-13 02:15:21,129 - INFO - session closed
+2023-09-13 02:15:21,129 - INFO - Validity test passed !!!
+2023-09-13 02:15:21,129 - INFO - checking if table exist!!...
+2023-09-13 02:15:21,131 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='fdjfhfgfdf676fghfhgjhjhj'and payment_status=0;
+2023-09-13 02:15:21,134 - INFO - session closed
+2023-09-13 02:15:21,134 - INFO - updating the table
+2023-09-13 02:15:21,134 - INFO - checking if table exist!!...
+2023-09-13 02:15:21,136 - INFO - row inserted!..
+2023-09-13 02:15:21,140 - INFO - session closed
+2023-09-13 02:15:21,140 - INFO - new
+2023-09-13 02:15:21,141 - INFO - Validation time: 0.006 seconds
+2023-09-13 02:15:21,141 - INFO - Execution time: 0.028 seconds
+2023-09-13 04:13:42,943 - INFO - Serving on http://0.0.0.0:5007
+2023-09-13 04:33:31,610 - INFO - Validation time: 0.007 seconds
+2023-09-13 04:33:31,610 - INFO - POST /forward_to_Order
+2023-09-13 04:33:31,611 - INFO - order generation function triggered..
+2023-09-13 04:33:31,611 - INFO - checking if table exist!!...
+2023-09-13 04:33:31,620 - INFO - session closed
+2023-09-13 04:33:31,620 - INFO - Checkout Item found....
+2023-09-13 04:33:31,620 - INFO - checking if table exist!!...
+2023-09-13 04:33:31,624 - INFO - session closed
+2023-09-13 04:33:31,624 - INFO - checking if table exist!!...
+2023-09-13 04:33:31,665 - INFO - session closed
+2023-09-13 04:33:31,666 - INFO - Validity test passed !!!
+2023-09-13 04:33:31,666 - INFO - checking if table exist!!...
+2023-09-13 04:33:31,669 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='klkjlgjfghfhghj898kmjkj'and payment_status=0;
+2023-09-13 04:33:31,673 - INFO - session closed
+2023-09-13 04:33:31,673 - INFO - inserting
+2023-09-13 04:33:31,673 - INFO - checking if table exist!!...
+2023-09-13 04:33:31,675 - INFO - row inserted!..
+2023-09-13 04:33:31,679 - INFO - session closed
+2023-09-13 04:33:31,679 - INFO - new
+2023-09-13 04:33:31,679 - INFO - Validation time: 0.007 seconds
+2023-09-13 04:33:31,679 - INFO - Execution time: 0.076 seconds
+2023-09-13 14:51:00,008 - INFO - Validation time: 0.006 seconds
+2023-09-13 14:51:41,436 - INFO - Validation time: 0.005 seconds
+2023-09-13 14:51:41,436 - INFO - POST /forward_to_Order
+2023-09-13 14:51:41,436 - INFO - order generation function triggered..
+2023-09-13 14:51:41,436 - INFO - checking if table exist!!...
+2023-09-13 14:51:41,436 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 760, in _write_bytes
+    self._sock.sendall(data)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/sqlalchemy/pool/base.py", line 991, in _finalize_fairy
+    fairy._reset(
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/sqlalchemy/pool/base.py", line 1440, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 657, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 481, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 818, in _execute_command
+    self._write_bytes(packet)
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 763, in _write_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))")
+2023-09-13 14:51:41,438 - ERROR - Error: connection issue (pymysql.err.OperationalError) (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))")
+[SQL: DESCRIBE `external`.`tbl_checkout`]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-09-13 14:51:42,443 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/sqlalchemy/event/base.py", line 147, in __init__
+    self._empty_listeners = self._empty_listener_reg[instance_cls]
+  File "/usr/lib/python3.9/weakref.py", line 405, in __getitem__
+    return self.data[ref(key)]
+KeyError: <weakref at 0x7f6950ff4c20; to 'type' at 0x7f6948016350 (Session)>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 760, in _write_bytes
+    self._sock.sendall(data)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/sqlalchemy/pool/base.py", line 991, in _finalize_fairy
+    fairy._reset(
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/sqlalchemy/pool/base.py", line 1440, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 657, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 481, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 818, in _execute_command
+    self._write_bytes(packet)
+  File "/home/woofandtrill/.local/lib/python3.9/site-packages/pymysql/connections.py", line 763, in _write_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))")
+2023-09-13 14:51:42,451 - INFO - session closed
+2023-09-13 14:51:42,451 - INFO - Checkout Item found....
+2023-09-13 14:51:42,451 - INFO - checking if table exist!!...
+2023-09-13 14:51:42,455 - INFO - session closed
+2023-09-13 14:51:42,455 - INFO - checking if table exist!!...
+2023-09-13 14:51:42,458 - INFO - session closed
+2023-09-13 14:51:42,458 - INFO - Validity test passed !!!
+2023-09-13 14:51:42,458 - INFO - checking if table exist!!...
+2023-09-13 14:51:42,460 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='klkjlgjfghfhghj898kmjkjll'and payment_status=0;
+2023-09-13 14:51:42,462 - INFO - session closed
+2023-09-13 14:51:42,462 - INFO - inserting
+2023-09-13 14:51:42,463 - INFO - checking if table exist!!...
+2023-09-13 14:51:42,466 - INFO - row inserted!..
+2023-09-13 14:51:42,469 - INFO - session closed
+2023-09-13 14:51:42,469 - INFO - new
+2023-09-13 14:51:42,470 - INFO - Validation time: 0.005 seconds
+2023-09-13 14:51:42,470 - INFO - Execution time: 1.039 seconds
+2023-09-13 18:34:11,432 - INFO - Serving on http://0.0.0.0:5007
+2023-09-13 18:44:45,432 - INFO - Validation time: 0.008 seconds
+2023-09-13 18:44:45,432 - INFO - POST /forward_to_Order
+2023-09-13 18:44:45,432 - INFO - order generation function triggered..
+2023-09-13 18:44:45,432 - INFO - checking if table exist!!...
+2023-09-13 18:44:45,477 - INFO - session closed
+2023-09-13 18:44:45,477 - INFO - Checkout Item found....
+2023-09-13 18:44:45,477 - INFO - checking if table exist!!...
+2023-09-13 18:44:45,482 - INFO - session closed
+2023-09-13 18:44:45,482 - INFO - checking if table exist!!...
+2023-09-13 18:44:45,486 - INFO - session closed
+2023-09-13 18:44:45,486 - INFO - Validity test passed !!!
+2023-09-13 18:44:45,486 - INFO - checking if table exist!!...
+2023-09-13 18:44:45,488 - INFO - SELECT COUNT(*) from external.tbl_order WHERE uid='36141bb3a7ccccb7c733e7bff6b697abe84da8c6'and session_id='klkjlgjfghfhghj898kmjkjll'and payment_status=0;
+2023-09-13 18:44:45,493 - INFO - session closed
+2023-09-13 18:44:45,493 - INFO - inserting
+2023-09-13 18:44:45,493 - INFO - checking if table exist!!...
+2023-09-13 18:44:45,495 - INFO - row inserted!..
+2023-09-13 18:44:45,499 - INFO - session closed
+2023-09-13 18:44:45,499 - INFO - new
+2023-09-13 18:44:45,499 - INFO - Validation time: 0.008 seconds
+2023-09-13 18:44:45,499 - INFO - Execution time: 0.075 seconds
+2023-09-16 04:44:07,150 - INFO - Serving on http://0.0.0.0:5007
